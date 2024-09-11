@@ -3,7 +3,7 @@
 apt -y update && apt -y upgrade
 
 # Remove Apps
-apt -y --autoremove remove totem hypnotix rhythmbox celluloid drawing
+apt -y remove --autoremove totem hypnotix rhythmbox celluloid drawing libreoffice*
 
 # Install Apps
 apt -y install fonts-powerline build-essential git adb fastboot gtkhash virtualbox vlc 
